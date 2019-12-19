@@ -41,3 +41,15 @@
         }
     }
 }
+
+
+
+@media (max-width: 850px){
+    .footer_section{
+        padding: 80px 0;
+        .footer-box{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+

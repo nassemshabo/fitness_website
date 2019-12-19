@@ -32,3 +32,31 @@
         }
     }
 }
+
+
+
+/* media query (850px) */
+
+@media (max-width: 850px){
+    .classes_section{
+        .class-box{
+            .box{
+                padding: 90px 20px;
+                .btn{
+                   padding: 10px 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .classes_section{
+        .class-box{
+            flex-direction: column;
+            .box{
+                padding: 90px 30px;
+            }
+        }
+    }
+}

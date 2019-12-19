@@ -47,3 +47,33 @@
     }
     
 }
+
+
+
+/* medi query (850px) */
+
+@media (max-width: 850px){
+    .plan_section{
+        padding: 80px 0 ;
+        h2{
+            font-size: 32px;
+        }
+        .plan-box{
+            grid-template-columns: 1fr;
+            .plan{
+                .price{
+                    padding: 35px 0;
+                    h2{
+                        font-size: 45px;
+                    }
+                }
+            }
+        }
+        .order{
+            padding: 20px 0;
+                .btn{
+                    font-size: 14px;
+                }
+        }
+    }
+}

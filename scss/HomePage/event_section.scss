@@ -14,8 +14,6 @@
         }
         .p_event{
             padding: 200px 50px;
-            
-           
             span{
                 font-size: 16px;
                 color:gray;
@@ -77,3 +75,50 @@
     }
    }
 }
+
+
+
+/* media query (850px) */
+
+@media(max-width: 850px){
+    .event_section{
+        .cont-event{
+            grid-template-columns: 1fr;
+            width: 90%;
+            margin: auto;
+            .img_event{
+                display: none;
+            }
+            .p_event{
+                padding: 100px 0;
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .register{
+        padding: 100px 20px;
+        span{
+            font-size: 16px;
+        }
+        h2{
+            padding-top: 15px ;
+            font-size: 32px;
+        }
+        .day{
+            font-size: 46px;
+            padding: 0 30px ;
+        }
+       div{
+           margin-top: 40px;
+        .btn{
+            padding: 15px 30px;
+            font-size: 16px;
+        }
+    }
+}
+}
+
+

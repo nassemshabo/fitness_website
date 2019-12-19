@@ -47,7 +47,7 @@ a{
  
 
 .container{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -90,3 +90,12 @@ h2{
 }
  
 
+@media(max-width:850px){
+  h2{
+      font-size: 20px;
+      margin-bottom: 15px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
